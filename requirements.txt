@@ -1,0 +1,6 @@
+httpx>=0.27,<1
+wcwidth>=0.2,<1
+
+# F2P on Poetry-based repos (``pip install -e .`` omits ``[tool.poetry.group.*]`` deps).
+# Fontaine runs ``python -m poetry install --with …`` when ``poetry`` is not on PATH.
+poetry>=1.8,<3

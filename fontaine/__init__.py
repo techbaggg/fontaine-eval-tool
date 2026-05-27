@@ -1,0 +1,1 @@
+"""Fontaine — repository screening CLI."""
